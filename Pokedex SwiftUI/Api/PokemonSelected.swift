@@ -13,7 +13,7 @@ struct PokemonSelected: Codable {
 }
 
 struct PokemonSprites: Codable {
-    var defaults: String
+    var front_default: String
 }
 
 class PokemonSelectedApi {
